@@ -13,6 +13,8 @@
 		A561367124F6F53000319DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A561366F24F6F53000319DD3 /* Main.storyboard */; };
 		A561367324F6F53200319DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A561367224F6F53200319DD3 /* Assets.xcassets */; };
 		A561367624F6F53200319DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A561367424F6F53200319DD3 /* LaunchScreen.storyboard */; };
+		A561367F24F6F68F00319DD3 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A561367D24F6F68F00319DD3 /* ItemCell.swift */; };
+		A561368024F6F68F00319DD3 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A561367E24F6F68F00319DD3 /* ItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A561367224F6F53200319DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A561367524F6F53200319DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A561367724F6F53200319DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A561367D24F6F68F00319DD3 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		A561367E24F6F68F00319DD3 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				A561366924F6F53000319DD3 /* AppDelegate.swift */,
 				A561366B24F6F53000319DD3 /* SceneDelegate.swift */,
 				A561366D24F6F53000319DD3 /* ViewController.swift */,
+				A561367D24F6F68F00319DD3 /* ItemCell.swift */,
+				A561367E24F6F68F00319DD3 /* ItemCell.xib */,
 				A561366F24F6F53000319DD3 /* Main.storyboard */,
 				A561367224F6F53200319DD3 /* Assets.xcassets */,
 				A561367424F6F53200319DD3 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A561368024F6F68F00319DD3 /* ItemCell.xib in Resources */,
 				A561367624F6F53200319DD3 /* LaunchScreen.storyboard in Resources */,
 				A561367324F6F53200319DD3 /* Assets.xcassets in Resources */,
 				A561367124F6F53000319DD3 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A561367F24F6F68F00319DD3 /* ItemCell.swift in Sources */,
 				A561366E24F6F53000319DD3 /* ViewController.swift in Sources */,
 				A561366A24F6F53000319DD3 /* AppDelegate.swift in Sources */,
 				A561366C24F6F53000319DD3 /* SceneDelegate.swift in Sources */,
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUL4R3FCTQ;
 				INFOPLIST_FILE = "Word Search/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUL4R3FCTQ;
 				INFOPLIST_FILE = "Word Search/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
