@@ -421,4 +421,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             gameEnded()
         }
     }
+    
+    // Implemented only portrait mode
+    override open var shouldAutorotate: Bool {
+        return false
+    }
 }
